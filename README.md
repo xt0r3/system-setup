@@ -1,3 +1,8 @@
+# DISCLAIME
+The author does not take responsibility for any issues arising from running this script, even if the issues arise by something for which the author is at fault.
+
+You should only run this script at your own risk, without any warranties from the author.
+
 # Installation
 Run `bash script.sh` (or `bash script-vim.sh` if you want to add vim keybindings to your environment)
 
