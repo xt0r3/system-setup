@@ -31,6 +31,9 @@ yes | sudo apt-get install swi-prolog=7.6.4+dfsg-2ubuntu2
 bash -c "sh <(curl -fsSL https://raw.githubusercontent.com/ocaml/opam/master/shell/install.sh)"
 
 ########################## JUPYTER LAB EXTENSIONS #######################################
+# Install VIM keybindings (feel free to comment out)
+yes | conda install -c conda-forge jupyterlab_vim
+
 # Install the OCaml kernel for Jupyter Lab
 yes | sudo apt-get install -y zlib1g-dev libffi-dev libgmp-dev libzmq5-dev
 opam install jupyter

@@ -1,5 +1,7 @@
-Run `bash script.sh`
-After that, the example notebooks should work as intended
+**Requirements**: Ubuntu 20.04 LTS
+
+Run `bash script.sh` (or `bash script-vim.sh` if you want to add vim keybindings to your environment)
+After that, the example notebooks should work as intended.
 
 # Jupyter Lab Setup
 This part guides you through how the `setup.sh` script actually works and what you need to pay attention to when modifying the results. Reading it is **strongly** recommended.
