@@ -56,7 +56,7 @@ yes | sudo apt install imagemagick
 yes | sudo apt-get install libpoppler-dev # a dependency of pdf2svg
 yes | sudo apt-get install pdf2svg
 yes | pip install git+https://github.com/mkrphys/ipython-tikzmagic.git
-sed -i 's/<policy domain="coder" rights="none" pattern="PDF />/<policy domain="coder" rights="read|write" pattern="PDF />/' '/etc/ImageMagick-6/policy.xml'
+sed -i 's/<policy domain="coder" rights="none" pattern="PDF \/>/<policy domain="coder" rights="read|write" pattern="PDF \/>/' '/etc/ImageMagick-6/policy.xml'
 
 # Add Python code formatting
 yes | pip install jupyterlab-code-formatter
