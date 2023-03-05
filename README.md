@@ -1,5 +1,5 @@
 Run `bash script.sh`
-After that, the example notebook should work as intended
+After that, the example notebooks should work as intended
 
 # Jupyter Lab Setup
 This part guides you through how the `setup.sh` script actually works and what you need to pay attention to when modifying the results. Reading it is **strongly** recommended.
