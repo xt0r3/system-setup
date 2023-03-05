@@ -1,9 +1,17 @@
-**Requirements**: Ubuntu 20.04 LTS
-
+# Installation
 Run `bash script.sh` (or `bash script-vim.sh` if you want to add vim keybindings to your environment)
+
+## Requirements: 
+Ubuntu 20.04 LTS (or WSL running the same operating system. You can install WSL by running `wsl --install -d Ubuntu-20.04` from PowerShell)
+
 After that, the example notebooks should work as intended.
 
-# Jupyter Lab Setup
+After this, you should have a conda environment called `supervisionWork` with everything installed in it.
+To use it, simply run `conda activate supervisionWork`.
+
+To start Jupyter Lab, run `jupyter lab --no-browser`
+
+# Jupyter Lab Setup Explained
 This part guides you through how the `setup.sh` script actually works and what you need to pay attention to when modifying the results. Reading it is **strongly** recommended.
 
 
